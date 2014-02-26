@@ -1,8 +1,3 @@
-require_relative 'aaa'
-require_relative 'aaa'
-require_relative 'aaa'
-
-
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
@@ -24,11 +19,10 @@ class PostsController < ApplicationController
 
   # GET /posts/1/edit
   def edit
+    k
   end
 
-  def index2
-
-  end
+  def i  end
 
   # POST /posts
   # POST /posts.json
