@@ -26,6 +26,10 @@ class PostsController < ApplicationController
   def edit
   end
 
+  def index2
+
+  end
+
   # POST /posts
   # POST /posts.json
   def create
