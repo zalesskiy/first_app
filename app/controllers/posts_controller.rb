@@ -19,7 +19,10 @@ class PostsController < ApplicationController
 
   # GET /posts/1/edit
   def edit
+    k
   end
+
+  def i  end
 
   # POST /posts
   # POST /posts.json
