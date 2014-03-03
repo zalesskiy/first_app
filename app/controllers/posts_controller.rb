@@ -22,8 +22,6 @@ class PostsController < ApplicationController
     k
   end
 
-  def i  end
-
   # POST /posts
   # POST /posts.json
   def create
